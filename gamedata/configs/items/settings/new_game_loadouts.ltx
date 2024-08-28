@@ -20,66 +20,92 @@ total_points_eco_1 = 2000
 total_points_eco_2 = 1750
 total_points_eco_3 = 1500
 
-
 [custom]	
 
 [shared]:custom
-cash 					        = false,1,0
-bandage					        = false,3,0
-batteries_dead			        = false,2,0
-flask 					        = false,1,0
-tushonka                        = false,1,0
-box_matches 			        = false,3,0
-bolt 					        = false,1,0
+cash = false,1,0
+bandage = false,3,0
+batteries_dead = false,2,0
+flask = false,1,0
+tushonka = false,1,0
+box_matches = false,1,0
+bolt = false,1,0
+bolts_pack = false,1,0
+itm_actor_backpack = false,1,0
 
-bolts_pack						= true,1,10
-itm_sleepbag                    = true,1,50
+beer = true,2,35
+bread = true,2,5
+energy_drink = true,1,20
+kolbasa = true,1,15
+mineral_water = true,2,35
 
-beer                            = true,2,35
-bread					        = true,2,5
-energy_drink			        = true,1,20
-kolbasa					        = true,1,15
-mineral_water					= true,2,35
+device_flashlight = true,1,200
+device_torch_dummy = true,1,300
+device_glowstick = true,4,20
 
-device_flashlight				= true,1,200
-device_torch_dummy              = true,1,300
-device_glowstick				= true,4,20
+armor_repair_fa = true,1,35
+gun_oil = true,1,50
 
-armor_repair_fa                 = true,1,35
-gun_oil                         = true,1,50
-
-wpn_binoc_inv                   = true,1,150
-radio_item                      = true,1,5
+wpn_binoc_inv = true,1,100    
+radio_item = true,1,5
 
 [stalker_loadout]:shared
-stalker_patch			        = false,1,0
-cigarettes_russian                = false,2,0
+stalker_patch = false,1,0
+device_pda_1 = false,1,0
+itm_backpack = false,1,0
+wpn_knife2 = false,1,0
 
-helm_resp                       = true,1,50
+wpn_sks_b = true,1,1450,1
+wpn_mosin = true,1,1250
+wpn_vityaz = true,1,700
+wpn_kiparis = true,1,400
+wpn_toz34_obrez = true,1,600,2
+wpn_toz106_m1 = true,1,400
+wpn_aps = true,1,300
+wpn_colt1911 = true,1,250
+wpn_pm_custom = true,1,150
+wpn_tt33_modern = true,1,200
 
-wpn_sks_b = true,1,1000,1
-wpn_mosin = true,1,1050
-wpn_vityaz = true,1,500
-wpn_kiparis = true,1,300
-wpn_toz34_obrez = true,1,550,2
-wpn_toz106_m1 = true,1,375
-wpn_aps = true,1,200
-wpn_oc33 = true,1,250
-wpn_colt1911 = true,1,200
-wpn_pm_custom = true,1,125
+cooking = true,1,25
+yadylin = true,2,50
+drug_sleepingpills = true,2,75
+antirad_cstamine = true,2,50
+glucose_s = true,2,75,2
+antirad_kalium = true,3,175
+medkit = true,4,150
+joint = true,1,90
+brewed_coffee = true,2,85
+ration_ukr = true,1,200,2
+vodka = true,3,150
+cigarettes_russian = true,2,30
+
+helm_cloth_mask = true,1,5
+helm_rp_bala = true,1,10
+helm_resp = true,1,50
+helm_respirator = true,1,250
 
 novice_outfit = true,1,50
+novice_outfit_camo = true,1,250
+novice_outfit_tourist = true,1,450
 stalker_outfit = true,1,500
 
-joint = true,1,90
+detector_geiger = true,1,200
+detector_radio = true,1,200
+detector_simple = true,1,450
 
 ammo_9x18_ap = true,3,100
 
 [bandit_loadout]:shared
-bandit_patch			        = false,1,0
-cigarettes_russian		        = false,2,0
+bandit_patch = false,1,0
+device_pda_1 = false,1,0
+wpn_knife2 = false,1,0
+equ_small_pack = false,1,0
+porn = false,1,0
 
-helm_cloth_mask     = true,1,50
+helm_cloth_mask = true,1,5
+helm_rp_bala = true,1,10
+helm_resp = true,1,50
+helm_respirator = true,1,250
 
 wpn_sks_b = true,1,1000,1
 wpn_mosin = true,1,1050
@@ -92,18 +118,42 @@ wpn_colt1911 = true,1,200
 wpn_pm_custom = true,1,125
 
 bandit_novice_outfit = true,1,50
+trenchcoat_brown_outfit = true,1,250
 banditmerc_outfit = true,1,500
+
+cooking = true,1,25
+yadylin = true,2,50
+drug_sleepingpills = true,2,75
+antirad_cstamine = true,2,50
+antirad_kalium = true,3,175
+medkit = true,3,150
+joint = true,4,90
+brewed_coffee = true,2,85
+ration_ukr = true,1,200,2
+vodka = true,3,150
+cigarettes_russian = true,2,30
+cocaine = true,1,75
+drug_booster = true,1,250           
+
+detector_geiger = true,1,200
+detector_radio = true,1,175
 
 ammo_9x18_pmm = true,3,50
 
 [ecolog_loadout]:shared
+; Future Plans:
+; Make it so ecologists have a lot of good mutant killing weapons but no good stalker killing weapons
+; Make it so ecologists have the best immediate medical supplies
+; Make it so ecologists have the Bear detector
+; Make it so ecologists don't have decent armor (Novice outfit and SSP-99 Bodsuit MAX)
+; Make it so ecologists can have LLMCs
+; - [Ted]
 ecolog_patch = false,1,0
 cigarettes_russian = false,2,0
-helm_resp                       = true,1,50
 
-wpn_k98 = true,1,1050
-wpn_mp5 = true,1,500
-wpn_vz61_alt = true,1,375
+helm_resp = true,1,50
+
+wpn_toz34 = true,1,850,1
 wpn_bm16 = true,1,550,2
 wpn_toz106_m1 = true,1,375
 wpn_sig220_n = true,1,275
@@ -113,11 +163,11 @@ ammo_11.43x23_hydro = true,3,100
 
 novice_outfit = true,1,50
 ecolog_guard_outfit = true,1,600
-stimpack_scientic               = true,1,100
+stimpack_scientic = true,1,100
 
 [dolg_loadout]:shared
-dolg_patch				        = false,1,0
-cigarettes_russian		        = false,2,0
+dolg_patch = false,1,0
+cigarettes_russian = false,2,0
 
 helm_respirator_old = true,1,50
 wpn_sks_b = true,1,1000,1
@@ -143,7 +193,7 @@ helm_respirator_old = true,1,50
 
 wpn_k98 = true,1,1050
 wpn_mp5 = true,1,500
-wpn_vz61_alt = true,1,375
+wpn_vz61 = true,1,375
 wpn_bm16 = true,1,550,2
 wpn_toz106_m1 = true,1,375
 wpn_usp = true,1,250
@@ -168,7 +218,7 @@ helm_respirator_old = true,1,50
 
 wpn_k98 = true,1,1050
 wpn_mp5 = true,1,500
-wpn_vz61_alt = true,1,375
+wpn_vz61 = true,1,375
 wpn_bm16 = true,1,550,2
 wpn_toz106_m1 = true,1,375
 wpn_usp = true,1,250
@@ -200,7 +250,6 @@ wpn_aps = true,1,200
 wpn_colt1911 = true,1,200
 wpn_pm_custom = true,1,125
 
-
 ammo_9x18_pmm = true,3,50
 
 army_outfit = true,1,50
@@ -225,7 +274,7 @@ wpn_colt1911 = true,1,200
 wpn_pm_custom = true,1,125
 wpn_beretta_modern = true,1,200
 
-ammo_9x39_pab9                  = true,3,120
+ammo_9x39_pab9 = true,3,120
 
 monolith_outfit = true,1,50
 monolith_trenchcoat_outfit = true,1,400
@@ -241,7 +290,7 @@ helm_resp = true,1,50
 wpn_k98 = true,1,1050
 wpn_winchester1873 = true,1,600
 wpn_mp5 = true,1,500
-wpn_vz61_alt = true,1,375
+wpn_vz61 = true,1,375
 wpn_bm16 = true,1,550,2
 wpn_toz106_m1 = true,1,375
 wpn_usp = true,1,250
@@ -313,7 +362,7 @@ wpn_mossberg590 = true,1,1050
 wpn_aug_freedom = true,1,400
 wpn_mp5sd = true,1,650
 wpn_pl15 = true,1,225
-wpn_vz61_alt = true,1,325
+wpn_vz61 = true,1,325
 wpn_fnp45 = true,1,225
 wpn_fn57 = true,1,325
 
@@ -367,8 +416,6 @@ ammo_7.62x39_fmj = 25
 ammo_7.92x33_fmj = 30
 ammo_7.62x54_7h1 = 30
 ammo_23x75_shrapnel = 40
-
-
 
 ;; ===========================< Money >=============================
 [stalker_money]
