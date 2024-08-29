@@ -16,9 +16,9 @@
 ; Make it so you don't start with disassembly tools also!!!
 
 [points]
-total_points_eco_1 = 2000
-total_points_eco_2 = 1750
-total_points_eco_3 = 1500
+total_points_eco_1 = 1700
+total_points_eco_2 = 1400
+total_points_eco_3 = 1200
 
 [custom]	
 
@@ -43,11 +43,7 @@ device_flashlight = true,1,200
 device_torch_dummy = true,1,300
 device_glowstick = true,4,20
 
-armor_repair_fa = true,1,35
-gun_oil = true,1,50
-
-wpn_binoc_inv = true,1,100    
-radio_item = true,1,5
+wpn_binoc_inv = true,1,100
 
 [stalker_loadout]:shared
 stalker_patch = false,1,0
@@ -55,9 +51,9 @@ device_pda_1 = false,1,0
 itm_backpack = false,1,0
 wpn_knife2 = false,1,0
 
-wpn_sks_b = true,1,1450,1
-wpn_mosin = true,1,1250
-wpn_vityaz = true,1,700
+wpn_sks_b = true,1,1200,1
+wpn_mosin = true,1,750
+wpn_vityaz = true,1,600
 wpn_kiparis = true,1,400
 wpn_toz34_obrez = true,1,600,2
 wpn_toz106_m1 = true,1,400
@@ -78,6 +74,9 @@ brewed_coffee = true,2,85
 ration_ukr = true,1,200,2
 vodka = true,3,150
 cigarettes_russian = true,2,30
+
+armor_repair_fa = true,3,35
+gun_oil = true,2,50
 
 helm_cloth_mask = true,1,5
 helm_rp_bala = true,1,10
@@ -108,18 +107,18 @@ helm_resp = true,1,50
 helm_respirator = true,1,250
 
 wpn_sks_b = true,1,1000,1
-wpn_mosin = true,1,1050
+wpn_mosin = true,1,700,2
 wpn_vityaz = true,1,500
 wpn_kiparis = true,1,300
-wpn_toz34_obrez = true,1,550,2
+wpn_toz34_obrez = true,1,550
 wpn_toz106_m1 = true,1,375
 wpn_aps = true,1,200
 wpn_colt1911 = true,1,200
 wpn_pm_custom = true,1,125
 
 bandit_novice_outfit = true,1,50
-trenchcoat_brown_outfit = true,1,250
 banditmerc_outfit = true,1,500
+trenchcoat_brown_outfit = true,1,850
 
 cooking = true,1,25
 yadylin = true,2,50
@@ -141,35 +140,60 @@ detector_radio = true,1,175
 ammo_9x18_pmm = true,3,50
 
 [ecolog_loadout]:shared
-; Future Plans:
-; Make it so ecologists have a lot of good mutant killing weapons but no good stalker killing weapons
-; Make it so ecologists have the best immediate medical supplies
-; Make it so ecologists have the Bear detector
-; Make it so ecologists don't have decent armor (Novice outfit and SSP-99 Bodsuit MAX)
-; Make it so ecologists can have LLMCs
-; - [Ted]
 ecolog_patch = false,1,0
-cigarettes_russian = false,2,0
+wpn_knife = false,1,0
+device_pda_1 = false,1,0
+itm_backpack = false,1,0
 
+helm_cloth_mask = true,1,5
 helm_resp = true,1,50
+helm_respirator = true,1,250
 
-wpn_toz34 = true,1,850,1
-wpn_bm16 = true,1,550,2
-wpn_toz106_m1 = true,1,375
+wpn_remington870 = true,1,1000,2
+wpn_protecta = true,1,750
+wpn_toz34 = true,1,650,2
+wpn_toz106_m1 = true,1,450
+wpn_bm16 = true,1,375
 wpn_sig220_n = true,1,275
-wpn_usp = true,1,300
-
-ammo_11.43x23_hydro = true,3,100
+wpn_tt33_modern = true,1,200
 
 novice_outfit = true,1,50
+ecolog_outfit_orange = true,1,450
 ecolog_guard_outfit = true,1,600
-stimpack_scientic = true,1,100
+
+detector_geiger = true,1,150
+detector_radio = true,1,200
+detector_advanced = true,1,500
+device_torch_nv_1 = true,1,1250,2
+
+lead_box = true,3,150
+
+cooking = true,1,25
+yadylin = true,2,50
+morphine = true,1,150
+drug_sleepingpills = true,2,75
+glucose_s = true,2,75
+drug_radioprotector = true,2,150
+antirad = true,2,200
+antirad_kalium = true,3,175
+medkit = true,4,150
+medkit_scientific = true,2,350
+stimpack_scientic = true,2,500
+jgut = true,3,75
+akvatab = true,3,150
+brewed_coffee = true,2,85
+ration_ukr = true,1,200,2
+vodka = true,3,120
 
 [dolg_loadout]:shared
 dolg_patch = false,1,0
-cigarettes_russian = false,2,0
+wpn_knife2 = false,1,0
+wpn_device_pda_1 = false,1,0
+itm_backpack = false,1,0
 
-helm_respirator_old = true,1,50
+helm_resp = true,1,50
+helm_respirator_old = true,1,150
+
 wpn_sks_b = true,1,1000,1
 wpn_mosin = true,1,1050
 wpn_pp2000 = true,1,500
@@ -187,7 +211,9 @@ nbc_dolg_outfit = true,1,650
 
 [freedom_loadout]:shared
 freedom_patch = false,1,0
-cigarettes = false,2,0
+wpn_knife1 = false,1,0
+wpn_device_pda_1 = false,1,0
+itm_backpack = false,1,0
 
 helm_respirator_old = true,1,50
 
@@ -419,13 +445,13 @@ ammo_23x75_shrapnel = 40
 
 ;; ===========================< Money >=============================
 [stalker_money]
-money = 5000
+money = 2450
 
 [bandit_money]
-money = 5000
+money = 3450
 
 [ecolog_money]
-money = 5000
+money = 6520
 
 [dolg_money]
 money = 5000
