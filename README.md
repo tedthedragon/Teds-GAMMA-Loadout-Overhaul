@@ -1,6 +1,6 @@
 # Ted's G.A.M.M.A. Loadout Overhaul
 
-A loadout overhaul for the S.T.A.L.K.E.R. Anomaly Modpack: G.A.M.M.A.! Changes all of the enemy drops and player starting options to, ideally, decrease gun bloat and create newer more interesting options!
+A semi-recreation of G.A.M.M.A.'s NPC and New Game loadouts to, hopefully, decrease weapon bloat, make NPC rank matter more for what they use and provide more interesting starting choices.
 
 ## What does this change?
 
