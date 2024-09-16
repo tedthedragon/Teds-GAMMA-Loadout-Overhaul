@@ -1,6 +1,6 @@
 # Ted's G.A.M.M.A. Loadout Overhaul
 
-A semi-recreation of G.A.M.M.A.'s NPC and New Game loadouts to, hopefully, decrease weapon bloat, make NPC rank matter more for what they use and provide more interesting starting choices.
+A recreation, rebalance and rework of G.A.M.M.A.'s NPC and 'New Game' loadouts to decrease weapon bloat, add more NPC rank granularity and provide and promote more interesting loadout c hoices.
 
 ## What does this change?
 
@@ -10,9 +10,9 @@ This also removes weapons I view as overpowered currently like the AMB-17 and RD
 
 ## Is this compatible with (insert mod here)?
 
-This should, ideally, be compatible with anything that adds stuff to loadouts, though stuff like **F.W.P.** and BaS 2022 are currently untested by myself. In the future I may make patches for them, but there is no guarentee on that.
+Currently, this mod is incompatible with anything that touches loadouts in the form of that either this mod will take priority or whatever other mods you have modifying loadouts will take priority. I suggest loading mine last, as compat patches for BAS 2022, FWP and other gun mods will come in the future, though they're currently incomplete.
 
-## How do I install this?
+## How do I install this?               
 
 Add it to the bottom of your load order, ideally before any other weapon mods or new game loadout modifiers, in MO2. To add it either use Ctrl + M or the add archive button in the top left.
 
@@ -23,4 +23,5 @@ If you dislike something or the mod doesn't work on your end, I suggest either s
 ### Credits
 Grok: Creator of GAMMA and original code base for this.
 Momopate & MyNameIsAnon: Inspiration
+Nikki & PuzzledPeach: Testing, Inspiration and development support.
 Drunk_Headcrab: Bits of New Loadout code and ideas from his own loadout mod.
